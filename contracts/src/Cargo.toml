@@ -1,0 +1,17 @@
+[package]
+name = "contracts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cosmwasm-std = "1.5.3"
+serde = "1.0.197"
+serde_json = "1.0.114"
+schemars = "0.8.16"
+
+[lib]
+name = "contracts"
+path = "src/lib.rs"
+
+
+
